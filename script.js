@@ -8,7 +8,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     // Verifica se as credenciais estão corretas
     if (username === 'Maria_Careca' && password === '21082024') {
         // Redireciona para index.html se as credenciais estiverem corretas
-        window.location.href = 'index.html';
+        window.location.href = 'game.html';
     } else {
         // Exibe uma mensagem de erro se as credenciais estiverem incorretas
         alert('Usuário ou senha incorretos.');
